@@ -1,0 +1,8 @@
+need to convert the rest of the webp to gif
+
+converted 0-5
+
+look at the avif files to see which ones are the webp files needed to convert
+
+use
+https://ezgif.com/webp-to-gif
