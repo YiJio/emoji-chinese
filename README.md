@@ -21,8 +21,9 @@ https://cdn.jsdelivr.net/gh/YiJio/emoji-chinese@main/[DIR]
 *`[DIR]` -> `qq`, `wechat`, etc.*
 
 **Emoji map**
-准备了一些emoji maps（让您轻松上手），请查看`_emoji_maps` directory。复制到您的APP后怎么修改就怎么修改！
-> I prepared some emoji maps (easy for you to start), please take a look at the `_emoji_maps` directory. You can change the contents of the JSON objects however you like in your app.
+
+准备了一些emoji maps（让您轻松上手），请查看`_emoji_maps` directory。复制到您的APP后怎么修改就怎么修改！我之后可能会把这些maps缩小化。
+> I prepared some emoji maps (easy for you to start), please take a look at the `_emoji_maps` directory. You can change the contents of the JSON objects however you like in your app. I might also make them a minified js/json file later.
 
 ---
 
@@ -192,8 +193,16 @@ QQ里面的表情分成2003年、2007年、和2011年版。2015年版开始了�
 您只需要开个PR上传更多的表情，我回来看会合并的。
 > You are welcome to add more emojis to the list by opening up a pull request and I can merge them.
 
+如果您发现任何问题，也可以开Issues，我会查看！
+> If you find any issues, you can also open an issue and I will look at it!
+
 如有其他问题，请联系`1227699698@qq.com`或者`network@yijione.com`。谢谢。
-> If you have other questions, please contact `1227699698@qq.com` or `network@yijione.com`. Thank you.
+> If you have other questions, you can contact `1227699698@qq.com` or `network@yijione.com`. Thank you.
+
+## 参考 (Sources)
+* [EmojiAll](https://www.emojiall.com)
+* [Emojipedia](https://emojipedia.org)
+* [B站图文](https://www.bilibili.com/opus/613279398111932189)
 
 ## 变更日志 (Changelog)
 **[1.1] - 2025/02/03**
