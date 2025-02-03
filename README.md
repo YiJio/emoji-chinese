@@ -2,7 +2,7 @@
 这个表情库收集了一些中文社交应用中使用的默认表情。（注意：想着也收集抖音的表情吧）。
 > This is a dictionary for all default emojis used in some Chinese social apps. (Note: Thinking of also adding Douyin's emojis).
 
-## Table of Contents
+## 目录 (Table of Contents)
 * [1. 概述 (Overview)](#概述-overview)
 * * [1.1. B站（BiliBili）](#b站bilibili)
 * * [1.2. QQ](#qq)
@@ -20,6 +20,10 @@ https://cdn.jsdelivr.net/gh/YiJio/emoji-chinese@main/[DIR]
 ```
 *`[DIR]` -> `qq`, `wechat`, etc.*
 
+**Emoji map**
+准备了一些emoji maps（让您轻松上手），请查看`_emoji_maps` directory。复制到您的APP后怎么修改就怎么修改！
+> I prepared some emoji maps (easy for you to start), please take a look at the `_emoji_maps` directory. You can change the contents of the JSON objects however you like in your app.
+
 ---
 
 ### B站（BiliBili）
@@ -31,10 +35,10 @@ https://cdn.jsdelivr.net/gh/YiJio/emoji-chinese@main/[DIR]
 QQ里面的表情分成2003年、2007年、和2011年版。2015年版开始了新的默认表情设计，所以新版directory（`qq-new`）只是一些被改了或换了名字的表情。如果一个表情的形象或名字被改了，直接上传到这个directory就好。
 > QQ is separated into 2003, 2007, and 2011 versions. The 2015 version is the start of the new emoji look, but some emojis have either been designed or renamed. Any new emojis can be placed inside of the `qq-new` directory. If there is a new design or name for the emoji, you can upload the new version into the new directory as well.
 
-如果想要用我准备好的emoji map的话，把map复制到你的APP后记得也修改一下表情的directory url哦。（注意：只有在①有新的表情上传了且我尚未更新emoji map时，②或者你想使用2003、2007、2011年的表情包时，才这样做）。
->  If you are using any of the emoji maps I have prepared, don't forget to also update the emoji's directory url when you copy the map to your app! (Note: Only do this ① if there are new emojis and I have not updated the maps, OR ② if you want to use 2003, 2007, or 2011 emojis).
+如果想要用我准备好的emoji map的话，把map复制到您的APP后记得也修改一下表情的directory/url哦。（注意：只有在①有新的表情上传了且我尚未更新emoji map时，②或者您想使用2003、2007、2011年的表情包时，才这样做）。
+>  If you are using any of the emoji maps I have prepared, don't forget to also update the emoji's directory/url when you copy the map to your app! (Note: Only do this ① if there are new emojis and I have not updated the maps, OR ② if you want to use 2003, 2007, or 2011 emojis).
 
-统计一下：
+统计：
 * **2003年版**
 * * 20x20：总共96个动态表情。
 * * 24x24：总共27个静态表情（只能收集到这么多了）。
@@ -59,10 +63,10 @@ QQ里面的表情分成2003年、2007年、和2011年版。2015年版开始了�
 ~
 
 ### 微信（WeChat）
-微信里面的表情有2011版和一个新版directory（`wechat-new`）。请用这个新的directory。（注意：这里面不是动态的……我正在想办法把动态的弄到手……）。
-> WeChat is separated into 2011 version and the new version. Please use the new version's directory. (Note: The emojis are not animated... trying to think of a way to get my hands on them still...).
+微信里面的表情有2011版和一个新版directory（`wechat-new`）。请用这个新directory。（注意：这些表情都不是动态的……我正在想办法把动态的弄到手……）。
+> WeChat is separated into 2011 version and the new version. Please use the new version's directory. (Note: The emojis are not animated... still trying to think of a way to get my hands on them...).
 
-统计一下：
+统计：
 * **2011年版**
 * * 48x48：总共105个静态表情。
 * **新版**
@@ -70,11 +74,11 @@ QQ里面的表情分成2003年、2007年、和2011年版。2015年版开始了�
 * * * 128x128：总共110个静态表情。
 * * **其他（other）**
 * * * **脸红版（blush）**
-* * * * 128x128：总共24个自带脸红的表情。这个是网板微信专用的。如果想要脸红的，复制微信的emoji map，改一下表情的url就可以了。
+* * * * 128x128：总共24个自带脸红的表情。这个是客户端板微信专用的。想用的话在emoji map里换directory/url哦。
+* * * **mp.weixin.qq.com**
+* * * * 64x64：总共38个出现在mp.weixin.qq.com的表情（稍微有点不同的细节的）。想用的话在emoji map里换directory/url哦。
 * * * **旧版（old）**
-* * * * 64x64：总共28个静态表情。这里其实是2011年版的其他表情。这些还能从字转换成表情，不过打开表情列表时看不见。
-* * * **风格（style）**
-* * * * 64x64：总共9个稍微有点不同风格的表情。其实这些都是默认表情里已经有的表情。想用的话在emoji map里换directory url。
+* * * * 64x64：总共28个静态表情。这里其实是2011年版的其他表情。这些还能从字转换成表情，不过在微信里打开表情列表时看不见。
 
 ~
 
@@ -87,7 +91,7 @@ QQ里面的表情分成2003年、2007年、和2011年版。2015年版开始了�
 * * 22x22：总共14个动态表情。
 
 ## 注释 (Notes)
-想要帮忙吗？可以先看看下面缺少的表情哦！你也可以完成微博的表情包。
+想要帮忙吗？可以先看看下面缺少的表情哦！您也可以完成微博的表情包。
 > Want to help out? You can first look at the missing emojis below as a start! You are welcome to finish the Weibo emoji collection too.
 
 **QQ**
@@ -193,6 +197,7 @@ QQ里面的表情分成2003年、2007年、和2011年版。2015年版开始了�
 
 ## 变更日志 (Changelog)
 **[1.1] - 2025/02/03**
+* 添加了 LICENSE。
 * 更新了README。
 * 重构了repo。
 * 上传了‌新的表情。

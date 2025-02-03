@@ -109,7 +109,7 @@
   { "name": ["[跳跳]", "[Waddle]"], "url": "default/跳跳" },
   { "name": ["[发抖]", "[Tremble]"], "url": "default/发抖" },
   { "name": ["[转圈]", "[Twirl]"], "url": "default/转圈" },
-  { "name": ["[加油加油]", "[KeepFighting]"], "url": "other/old/加油加油" },
+  { "name": ["[加油加油]", "[KeepFighting]"], "url": "other/mp.weixin.qq.com/加油加油" },
   { "name": ["[怄火]", "[Aaagh!]"], "url": "other/old/怄火" },
   { "name": ["[左太极]"], "url": "other/old/左太极" },
   { "name": ["[右太极]"], "url": "other/old/右太极" },
