@@ -17,8 +17,9 @@
 ## 概述 (Overview)
 **CDN**
 ```
-https://cdn.jsdelivr.net/gh/YiJio/emoji-chinese@main/[DIR]
+https://cdn.jsdelivr.net/gh/YiJio/emoji-chinese@[VER]/[DIR]
 ```
+*`[VER]` -> `1.0.0`（最新/newest）
 *`[DIR]` -> `qq`, `wechat`, etc.*
 
 **Emoji map**
@@ -42,13 +43,12 @@ QQ里面的表情分成2003年、2007年、和2011年版。2015年版开始了�
 如果想要用我准备好的emoji map的话，把map复制到您的APP后记得也修改一下表情的directory/url哦。（注意：只有在①有新的表情上传了且我尚未更新emoji map时，②或者您想使用2003、2007、2011年的表情包时，才这样做）。
 >  If you are using any of the emoji maps I have prepared, don't forget to also update the emoji's directory/url when you copy the map to your app! (Note: Only do this ① if there are new emojis and I have not updated the maps, OR ② if you want to use 2003, 2007, or 2011 emojis).
 
-统计：
 ```
 📂 qq-2003 (2003年版)
 ├── 📄 20x20：总共96个动态表情。
 
 📂 qq-2007 (2007年版)
-├── 📄 24x24：总共171个动态表情。
+├── 📄 24x24：总共174个动态表情。
 
 📂 qq-2011 (2011年版)
 ├── 📄 56x56：总共100个动态表情。
@@ -76,7 +76,6 @@ QQ里面的表情分成2003年、2007年、和2011年版。2015年版开始了�
 微信里面的表情有2011版和一个新版directory（`wechat-new`）。请用这个新directory。（注意：这些表情都不是动态的……我正在想办法把动态的弄到手……）。
 > WeChat is separated into 2011 version and the new version. Please use the new version's directory. (Note: The emojis are not animated... still trying to think of a way to get my hands on them...).
 
-统计：
 ```
 📂 wechat-2011 (2011年版)
 ├── 📄 48x48：总共105个静态表情。
@@ -95,13 +94,13 @@ QQ里面的表情分成2003年、2007年、和2011年版。2015年版开始了�
 ```
 📂 default (默认)
 ├── 📂 36x36
-│   ├── 📄 36x36：总共197个静态表情（并非全套，有些96x96里面没有的）。
+│   ├── 📄 36x36：总共196个静态表情（并非全套，有些96x96里面没有的）。
 ├── 📂 96x96
 │   ├── 📄 96x96：总共149个静态表情（并非全套，有些36x36里面没有的）。
 ├── 📄 还有4个64x64的静态表情。
 
 📂 small (小表情)
-├── 📄 22x22：总共14个动态表情。
+├── 📄 22x22：总共15个动态表情。
 ```
 
 ## 注释 (Notes)
@@ -222,11 +221,13 @@ QQ里面的表情分成2003年、2007年、和2011年版。2015年版开始了�
 
 ## 变更日志 (Changelog)
 **[1.2] - 2025/02/06**
+* 微博emoji map。
 * 更新了README。
 * 重构了repo。
 * 改了些尺寸不一致的文件。
 
 **[1.1] - 2025/02/03**
+* 准备了一些emoji maps。
 * 添加了 LICENSE。
 * 更新了README。
 * 重构了repo。
