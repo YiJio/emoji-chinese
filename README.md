@@ -1,111 +1,157 @@
-# 表情库 (Emoji Dictionary)
-这个表情库收集了一些中文社交应用中使用的默认表情。（注意：想着也收集抖音的表情吧）。
-> This is a dictionary for all default emojis used in some Chinese social apps. (Note: Thinking of also adding Douyin's emojis).
+# 表情库 / Emoji Dictionary
+这个表情库收集了一些中文社交应用中使用的默认表情。
+> This is a dictionary for all default emojis used in some Chinese social apps/platforms.
 
-## 目录 (Table of Contents)
-* [1. 概述 (Overview)](#概述-overview)
-* * [1.1. B站（BiliBili）](#b站bilibili)
-* * [1.2. QQ](#qq)
-* * [1.3. 淘宝（Taobao）](#淘宝taobao)
-* * [1.4. 微信（WeChat）](#微信wechat)
-* * [1.5. 微博（Weibo）](#微博weibo)
-* [2. 注释 (Notes)](#注释-notes)
-* [3. 其他 (Other)](#其他-other)
-* [4. 参考 (Sources)](#参考-sources)
-* [5. 变更日志 (Changelog)](#变更日志-changelog)
+## 目录 / Table of Contents
+* [1. 步骤 / Steps](#步骤--steps)
+* [2. 平台 / Platforms](#平台--platforms)
+* * [2.1. B站 / BiliBili](#b站--bilibili)
+* * [2.1. 抖音 / Douyin](#抖音--douyin)
+* * [2.2. QQ](#qq)
+* * [2.3. 淘宝 / Taobao](#淘宝--taobao)
+* * [2.4. 微信 / WeChat](#微信--wechat)
+* * [2.5. 微博 / Weibo](#微博--weibo)
+* [3. 注释 / Notes](#注释--notes)
+* [4. 其他 / Other](#其他--other)
+* [5. 参考 / Sources](#参考--sources)
+* [6. 变更日志 / Changelog](#变更日志--changelog)
 
-## 概述 (Overview)
+## 步骤 / Steps
 **CDN**
 ```
 https://cdn.jsdelivr.net/gh/YiJio/emoji-chinese@[VER]/[DIR]
 ```
-*`[VER]` -> `1.0.0`（最新/newest）
-*`[DIR]` -> `qq`, `wechat`, etc.*
+* `[VER]` -> `1.1.0`（最新/newest）
+* `[DIR]` -> `qq`, `wx`, etc.*
+
+~
 
 **Emoji map**
 
-准备了一些emoji maps（让您轻松上手），请查看`_emoji_maps` directory。复制到您的APP后怎么修改就怎么修改！我之后可能会把这些maps缩小化。
-> I prepared some emoji maps (easy for you to start), please take a look at the `_emoji_maps` directory. You can change the contents of the JSON objects however you like in your app. I might also make them a minified js/json file later.
+一些让您轻松上手的JSON maps -> `_map`文件夹。都是按照每个应用（主要是网版）打开表情时的顺序。
+> There are some emoji maps made easy for you to start in the `_map` directory. These are made in the order shown on the emoji pickers of each app (mostly on the web version).
 
----
+## 平台 / Platforms
 
-### B站（BiliBili）
-* *或许会加`热词系列`和`TV系列`表情包。*
+### B站 / BiliBili
+![Status](https://img.shields.io/badge/status-somewhat_complete-green)
+
+* *接下来可能会加`热词系列`和`TV系列`表情包。*
+
+`📂 bz`
 ```
-📂 default (默认)
-├── 📄 96x96：总共94个静态表情。
+📂 def (默认)
+├── 📄 总94、96x96、静态
+```
+
+### 抖音 / Douyin
+![Status](https://img.shields.io/badge/status-not_started-green)
+
+`📂 dy`
+```
+📂 def (默认)
+├── 📄 总？、?x?
 ```
 
 ### QQ
-QQ里面的表情分成2003年、2007年、和2011年版。2015年版开始了新的默认表情设计，所以新版directory（`qq-new`）只是一些被改了或换了名字的表情。如果一个表情的形象或名字被改了，直接上传到这个directory就好。
-> QQ is separated into 2003, 2007, and 2011 versions. The 2015 version is the start of the new emoji look, but some emojis have either been designed or renamed. Any new emojis can be placed inside of the `qq-new` directory. If there is a new design or name for the emoji, you can upload the new version into the new directory as well.
+![Status](https://img.shields.io/badge/status-not_complete-green)
 
-如果想要用我准备好的emoji map的话，把map复制到您的APP后记得也修改一下表情的directory/url哦。（注意：只有在①有新的表情上传了且我尚未更新emoji map时，②或者您想使用2003、2007、2011年的表情包时，才这样做）。
->  If you are using any of the emoji maps I have prepared, don't forget to also update the emoji's directory/url when you copy the map to your app! (Note: Only do this ① if there are new emojis and I have not updated the maps, OR ② if you want to use 2003, 2007, or 2011 emojis).
+QQ分成2003年、2007年、和2011年版。新版跟2015年版一起用。新的表情直接上传到`qq-new`就好。
+> QQ is separated into 2003, 2007, and 2011 versions. Please use the new version with the 2015 version. Any new emojis will have to be uploaded inside of the `qq-new` directory.
 
+如果您想使用2003、2007、2011年版，请查专门针对这些版本的emoji map。`qqNew.json`是新版跟2015年版加在一起的。
+> If you want to use a specific version such as 2003, 2007, or 2011, then you can use the emoji maps specifically for those. The new emoji map uses both 2015 and the new version.
+
+`📂 qq`
 ```
 📂 qq-2003 (2003年版)
-├── 📄 20x20：总共96个动态表情。
+├── 📄 总96、20x20、动态
 
 📂 qq-2007 (2007年版)
-├── 📄 24x24：总共174个动态表情。
+├── 📄 总174、24x24、动态
 
 📂 qq-2011 (2011年版)
-├── 📄 56x56：总共100个动态表情。
+├── 📄 总100、56x56、动态
 
 📂 qq-2015 (2015年版)
-├── 📄 56x56：总共139个动态表情。
+├── 📄 总139、56x56、动态
 
 📂 qq-new (新版)
-├── 📂 default (默认)
-│   ├── 📄 56x56：总共94个新或从2015年版更新了的动态表情。
+├── 📂 def (默认)
+│   ├── 📄 总93、56x56、动态【新或从2015年版更新】
 ├── 📂 small (小表情)
-│   ├── 📄 24x24：总共19个动态表情（画风跟2007年的一样）。
+│   ├── 📄 总19、24x24、动态【画风跟2007年的一样】
 ```
 
-### 淘宝（Taobao）
+### 淘宝 / Taobao
+![Status](https://img.shields.io/badge/status-missing_some-green)
+
+`📂 tb`
 ```
 📂 64x64
-├── 📄 64x64：总共2个静态表情（只出现在网板）。
+├── 📄 总2、静态【只出现在网板】
 
 📂 86x86
-├── 📄 86x86：总共96个静态表情。
+├── 📄 总96、静态
 ```
 
-### 微信（WeChat）
-微信里面的表情有2011版和一个新版directory（`wechat-new`）。请用这个新directory。（注意：这些表情都不是动态的……我正在想办法把动态的弄到手……）。
-> WeChat is separated into 2011 version and the new version. Please use the new version's directory. (Note: The emojis are not animated... still trying to think of a way to get my hands on them...).
+### 微信 / WeChat
+![Status](https://img.shields.io/badge/status-not_complete-green)
 
+微信分成2011版和新版。新的表情直接上传到`wx-new`就好。
+> WeChat is separated into 2011 version and the new version. Please use the new version's directory.
+
+如果您只想使用2011年版，请用`wx2011.json` emoji map。`wxNew.json`是新版跟2011年版加在一起的（还有一些微信公众平台的）。由于一些表情仍被转成旧表情，因此两个版本被合并。
+> If you want to only use 2011, then you can use the `wx2011.json` emoji map. The new emoji map uses both 2011 and the new version (some are also from the WeChat Official Accounts Platform). The two version are combined due to some emojis still being parsed into the old emojis.
+
+`📂 wx`
 ```
-📂 wechat-2011 (2011年版)
-├── 📄 48x48：总共105个静态表情。
+📂 wx-2011 (2011年版)
+├── 📄 总105、48x48、静态
 
-📂 wechat-new (新版)
-├── 📂 default (默认)
-│   ├── 📄 128x128：总共110个静态表情。
+📂 wx-new (新版)
+├── 📂 def (默认)
+│   ├── 📄 总110、128x128、静态
 ├── 📂 other (其他)
 │   ├── 📂 pc (Windows版)
-│   │   ├── 📄 128x128：总共24个自带脸红的表情。这个是Windows客户端板微信专用的。用的话在emoji map里换directory/url哦。
+│   │   ├── 📄 总24、128x128、静态【自带脸红的表情，Windows客户端板专用的】
 │   ├── 📂 woap (微信公众平台)
-│   │   ├── 📄 64x64：总共38个出现在微信公众平台的表情（稍微有点不同的细节的）。用的话在emoji map里换directory/url哦。
+│   │   ├── 📄 总38、64x64、静态【出现在微信公众平台】
 ```
 
-### 微博（Weibo）
+### 微博 / Weibo
+![Status](https://img.shields.io/badge/status-not_complete-green)
+
+以下的文件夹是根据网版微博表情系列而来的。还有一个`tmp`文件夹仅用于存放特定事件期间放置的临时表情的。这些表情一旦从微博的默认表情列表中消失，我就会把它们放置在此文件夹。您可以自定义emoji map在您的app中使用这些表情。
+> The below directories follow the emoji series on Weibo's web version. The `tmp` folder is only for temporary emojis that have been placed during certain events on Weibo. Some emojis will be placed in this directory once it is off of Weibo's default emoji list. You can use these in your app anywhere you want by making your custom emoji map.
+
+`📂 wb`
 ```
-📂 default (默认)
+📂 def (默认)
 ├── 📂 36x36
-│   ├── 📄 36x36：总共196个静态表情（并非全套，有些96x96里面没有的）。
+│   ├── 📄 总131、静态
 ├── 📂 96x96
-│   ├── 📄 96x96：总共149个静态表情（并非全套，有些36x36里面没有的）。
-├── 📄 还有4个64x64的静态表情。
+│   ├── 📄 总100、静态
 
-📂 small (小表情)
-├── 📄 22x22：总共15个动态表情。
+📂 other (其他)
+├── 📂 22x22
+│   ├── 📄 总15、动态
+├── 📂 36x36
+│   ├── 📄 总66、静态
+├── 📂 64x64
+│   ├── 📄 总4、静态
+├── 📂 96x96
+│   ├── 📄 总46、静态
+
+📂 tmp (临时)
+├── 📂 64x64
+│   ├── 📄 总3、静态
+├── 📂 96x96
+│   ├── 📄 总4、静态
 ```
 
-## 注释 (Notes)
-想要帮忙吗？可以先看看下面缺少的表情哦！您也可以完成微博的表情包。
-> Want to help out? You can first look at the missing emojis below as a start! You are welcome to finish the Weibo emoji collection too.
+## 注释 / Notes
+缺少的表情如下 / missing emojis below：
 
 **QQ**
 ```
@@ -195,23 +241,15 @@ QQ里面的表情分成2003年、2007年、和2011年版。2015年版开始了�
 《太难了》（/:""）
 《好累》（/:"）
 ```
-**微博**
 
-这个看96x96和36x36的区别。
-> You can look at what is missing between the 96x96 and 36x36 versions.
-
-
-## 其他 (Other)
-您只需要开个PR上传更多的表情，我回来看会合并的。
+## 其他 / Other
+如果想帮忙，可以开个PR——我回来看会合并的。
 > You are welcome to add more emojis to the list by opening up a pull request and I can merge them.
 
-如果您发现任何问题，也可以开Issues，我会查看！
+如果发现任何其他问题，也可以开Issues，我有空会查看！
 > If you find any other problems, you can also open an issue and I will look at it!
 
-如有其他问题，请联系`network@yijione.com`。谢谢。
-> If you have other questions, you can contact `network@yijione.com`. Thank you.
-
-## 参考 (Sources)
+## 参考 / Sources
 * [EmojiAll](https://www.emojiall.com)
 * [Emojipedia](https://emojipedia.org)
 * [B站](https://bilibili.com)
@@ -219,7 +257,14 @@ QQ里面的表情分成2003年、2007年、和2011年版。2015年版开始了�
 * [淘宝](https://taobao.com)
 * [微博](https://weibo.com)
 
-## 变更日志 (Changelog)
+## 变更日志 / Changelog
+**[1.3] - 2025/02/08**
+
+![重要](https://img.shields.io/badge/%E9%87%8D%E8%A6%81-f44336) ![Important](https://img.shields.io/badge/Important-f44336)
+* 重构了repo -> 为了减少url的长度：
+* * 把所有新版表情的文件名都缩写或变成数字了。
+* * 把文件夹名字尽量缩写了。
+
 **[1.2] - 2025/02/06**
 * 微博emoji map。
 * 更新了README。
