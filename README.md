@@ -6,11 +6,11 @@
 * [1. 步骤 / Steps](#步骤--steps)
 * [2. 平台 / Platforms](#平台--platforms)
 * * [2.1. B站 / BiliBili](#b站--bilibili)
-* * [2.1. 抖音 / Douyin](#抖音--douyin)
-* * [2.2. QQ](#qq)
-* * [2.3. 淘宝 / Taobao](#淘宝--taobao)
-* * [2.4. 微信 / WeChat](#微信--wechat)
-* * [2.5. 微博 / Weibo](#微博--weibo)
+* * [2.2. 抖音 / Douyin](#抖音--douyin)
+* * [2.3. QQ](#qq)
+* * [2.4. 淘宝 / Taobao](#淘宝--taobao)
+* * [2.5. 微信 / WeChat](#微信--wechat)
+* * [2.6. 微博 / Weibo](#微博--weibo)
 * [3. 注释 / Notes](#注释--notes)
 * [4. 其他 / Other](#其他--other)
 * [5. 参考 / Sources](#参考--sources)
@@ -42,6 +42,10 @@ https://cdn.jsdelivr.net/gh/YiJio/emoji-chinese@[VER]/[DIR]
 ```
 📂 def (默认)
 ├── 📄 总94、96x96、静态
+
+📂 tv
+├── 📄 总44、96x96、动态
+├── 📄 总6、96x96、静态
 ```
 
 ### 抖音 / Douyin
@@ -56,11 +60,14 @@ https://cdn.jsdelivr.net/gh/YiJio/emoji-chinese@[VER]/[DIR]
 ### QQ
 ![Status](https://img.shields.io/badge/status-not_complete-green)
 
-QQ分成2003年、2007年、和2011年版。新版跟2015年版一起用。新的表情直接上传到`qq-new`就好。
+QQ分成2003年、2007年、和2011年版。新版跟2015年版一起用。新的表情直接上传到`qq-new`文件夹。
 > QQ is separated into 2003, 2007, and 2011 versions. Please use the new version with the 2015 version. Any new emojis will have to be uploaded inside of the `qq-new` directory.
 
-如果您想使用2003、2007、2011年版，请查专门针对这些版本的emoji map。`qqNew.json`是新版跟2015年版加在一起的。
-> If you want to use a specific version such as 2003, 2007, or 2011, then you can use the emoji maps specifically for those. The new emoji map uses both 2015 and the new version.
+用2003、2007、2011年版表情 -> 请查专门针对这些版本的emoji map。
+> Use 2003, 2007, or 2011 emojis -> please look at emoji maps specifically for those.
+
+用QQ新版表情 -> 请看`_map/qqNew.json`（新版+2015年版的表情）。
+> Use new emojis -> please look at `_map/qqNew.json` (new + 2015 emojis combined).
 
 `📂 qq`
 ```
@@ -92,17 +99,20 @@ QQ分成2003年、2007年、和2011年版。新版跟2015年版一起用。新�
 ├── 📄 总2、静态【只出现在网板】
 
 📂 86x86
-├── 📄 总96、静态
+├── 📄 总98、静态
 ```
 
 ### 微信 / WeChat
 ![Status](https://img.shields.io/badge/status-not_complete-green)
 
-微信分成2011版和新版。新的表情直接上传到`wx-new`就好。
-> WeChat is separated into 2011 version and the new version. Please use the new version's directory.
+微信分成2011版和新版。新的表情直接上传到`wx-new`文件夹。
+> WeChat is separated into 2011 version and the new version. Please use the new version's directory for new emojis.
 
-如果您只想使用2011年版，请用`wx2011.json` emoji map。`wxNew.json`是新版跟2011年版加在一起的（还有一些微信公众平台的）。由于一些表情仍被转成旧表情，因此两个版本被合并。
-> If you want to only use 2011, then you can use the `wx2011.json` emoji map. The new emoji map uses both 2011 and the new version (some are also from the WeChat Official Accounts Platform). The two version are combined due to some emojis still being parsed into the old emojis.
+用2011年版表情 -> 请看`_map/wx2011.json`。
+> Use 2011 emojis -> please look at `_map/wx2011.json`.
+
+用微信新版表情 -> 请看`_map/wxNew.json`（新版+一些2011年版的表情）。
+> Use new emojis -> please look at `_map/wxNew.json` (new + some 2011 emojis combined).
 
 `📂 wx`
 ```
@@ -122,8 +132,11 @@ QQ分成2003年、2007年、和2011年版。新版跟2015年版一起用。新�
 ### 微博 / Weibo
 ![Status](https://img.shields.io/badge/status-not_complete-green)
 
-以下的文件夹是根据网版微博表情系列而来的。还有一个`tmp`文件夹仅用于存放特定事件期间放置的临时表情的。这些表情一旦从微博的默认表情列表中消失，我就会把它们放置在此文件夹。您可以自定义emoji map在您的app中使用这些表情。
+以下的文件夹是根据网版微博表情系列而来的。还有一个`tmp`文件夹是仅用于存放特定事件期间放置的临时表情的。这些表情一旦从微博的默认表情列表中消失，我就会把它们放置在此文件夹。
 > The below directories follow the emoji series on Weibo's web version. The `tmp` folder is only for temporary emojis that have been placed during certain events on Weibo. Some emojis will be placed in this directory once it is off of Weibo's default emoji list. You can use these in your app anywhere you want by making your custom emoji map.
+
+`wb.json`合并了默认系列和其他系列表情。最新更新时间：2024年2月8号。
+> The `wb.json` emoji map combines the default "series" and other "series" emojis. Last updated 2/8/2024.
 
 `📂 wb`
 ```
@@ -234,20 +247,10 @@ QQ分成2003年、2007年、和2011年版。新版跟2015年版一起用。新�
 ```
 《茶》（[茶][Tea]）
 ```
-**淘宝**
-
-下面的只出现在手机版：
-```
-《太难了》（/:""）
-《好累》（/:"）
-```
 
 ## 其他 / Other
-如果想帮忙，可以开个PR——我回来看会合并的。
-> You are welcome to add more emojis to the list by opening up a pull request and I can merge them.
-
-如果发现任何其他问题，也可以开Issues，我有空会查看！
-> If you find any other problems, you can also open an issue and I will look at it!
+如果想帮忙，可以开个PR或写Issue——我有空会查看！
+> You are welcome to help by opening up a pull request or write an issue, I can take a look at them!
 
 ## 参考 / Sources
 * [EmojiAll](https://www.emojiall.com)
@@ -258,6 +261,10 @@ QQ分成2003年、2007年、和2011年版。新版跟2015年版一起用。新�
 * [微博](https://weibo.com)
 
 ## 变更日志 / Changelog
+**[1.4] - 2025/02/15**
+* 加了B站的`tv`系列表情。
+* 加了淘宝移动版两个缺失的表情。
+
 **[1.3] - 2025/02/08**
 
 ![重要](https://img.shields.io/badge/%E9%87%8D%E8%A6%81-f44336) ![Important](https://img.shields.io/badge/Important-f44336)
