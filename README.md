@@ -11,9 +11,9 @@
 * * [2.4. 淘宝 / Taobao](#淘宝--taobao)
 * * [2.5. 微博 / Weibo](#微博--weibo)
 * * [2.6. 微信 / WeChat](#微信--wechat)
-* * [2.7. 携程 / Trip.com](#携程--trip.com)
+* * [2.7. 携程 / Trip.com](#携程--tripcom)
 * * [2.8. 小红书 / RedNote](#小红书--rednote)
-* * [2.9. 支付宝 / Alipay](#小红书--alipay)
+* * [2.9. 支付宝 / Alipay](#支付宝--alipay)
 * [3. 注释 / Notes](#注释--notes)
 * [4. 其他 / Other](#其他--other)
 * [5. 参考 / Sources](#参考--sources)
@@ -55,7 +55,7 @@ https://cdn.jsdelivr.net/gh/YiJio/emoji-chinese@[VER]/[DIR]
 `📂 dy`
 ```
 📂 def (默认)
-├── 📄 总142、96x96
+├── 📄 总142、96x96、静态
 ```
 *注意：有一个`62.png`（132x96）不知道是什么表情。
 
@@ -98,11 +98,11 @@ QQ分成2003年、2007年、和2011年版。新版跟2015年版一起用。新�
 
 `📂 tb`
 ```
-📂 64x64
-├── 📄 总2、静态【只出现在网板】
+📂 def (默认)
+├── 📄 总98、86x86、静态
 
-📂 86x86
-├── 📄 总98、静态
+📂 other (其他)
+├── 📄 总2、64x64、静态【只出现在网板】
 ```
 
 ### 微博 / Weibo
@@ -187,14 +187,21 @@ QQ分成2003年、2007年、和2011年版。新版跟2015年版一起用。新�
 `📂 xhs`
 ```
 📂 pot (小红薯)
-├── 📂 64x64
-│   ├── 📄 总40、静态
+├── 📄 总40、64x64、静态
 
 📂 def (默认)
-├── 📂 128x128
-│   ├── 📄 总125、静态
+├── 📄 总125、？、静态
 ```
 *注意：还要调整一下尺寸。
+
+### 支付宝 / Alipay
+![Status](https://img.shields.io/badge/status-not_started-green)
+
+`📂 zfb`
+```
+📂 def (默认)
+├── 📂 📄 总？、？
+```
 
 ## 注释 / Notes
 缺少的表情如下 / missing emojis below：
@@ -290,38 +297,11 @@ QQ分成2003年、2007年、和2011年版。新版跟2015年版一起用。新�
 * [Emojipedia](https://emojipedia.org)
 * [B站](https://bilibili.com)
 * [B站图文](https://www.bilibili.com/opus/613279398111932189)
+* [抖音](https://douyin.com)
+* QQ
 * [淘宝](https://taobao.com)
 * [微博](https://weibo.com)
+* [携程](https://ctrip.com)
 
 ## 变更日志 / Changelog
-**[1.5] - 2025/02/20**
-* 加了小红书表情。
-* 加了携程表情。
-* 加了抖音表情。
-
-**[1.4] - 2025/02/15**
-* 加了B站的`tv`系列表情。
-* 加了淘宝移动版两个缺失的表情。
-
-**[1.3] - 2025/02/08**
-
-![重要](https://img.shields.io/badge/%E9%87%8D%E8%A6%81-f44336) ![Important](https://img.shields.io/badge/Important-f44336)
-* 重构了repo -> 为了减少url的长度：
-* * 把所有新版表情的文件名都缩写或变成数字了。
-* * 把文件夹名字尽量缩写了。
-
-**[1.2] - 2025/02/06**
-* 微博emoji map。
-* 更新了README。
-* 重构了repo。
-* 改了些尺寸不一致的文件。
-
-**[1.1] - 2025/02/03**
-* 准备了一些emoji maps。
-* 添加了LICENSE。
-* 更新了README。
-* 重构了repo。
-* 上传了‌新的表情。
-
-**[1.0] - 2025/02/01**
-* 收集了些表情 -> 还需要将所有文件格式转换为png或gif。
+查看[CHANGELOG.md](https://github.com/YiJio/emoji-chinese/blob/main/CHANGELOG.md)。
