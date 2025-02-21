@@ -9,8 +9,11 @@
 * * [2.2. 抖音 / Douyin](#抖音--douyin)
 * * [2.3. QQ](#qq)
 * * [2.4. 淘宝 / Taobao](#淘宝--taobao)
-* * [2.5. 微信 / WeChat](#微信--wechat)
-* * [2.6. 微博 / Weibo](#微博--weibo)
+* * [2.5. 微博 / Weibo](#微博--weibo)
+* * [2.6. 微信 / WeChat](#微信--wechat)
+* * [2.7. 携程 / Trip.com](#携程--trip.com)
+* * [2.8. 小红书 / RedNote](#小红书--rednote)
+* * [2.9. 支付宝 / Alipay](#小红书--alipay)
 * [3. 注释 / Notes](#注释--notes)
 * [4. 其他 / Other](#其他--other)
 * [5. 参考 / Sources](#参考--sources)
@@ -36,8 +39,6 @@ https://cdn.jsdelivr.net/gh/YiJio/emoji-chinese@[VER]/[DIR]
 ### B站 / BiliBili
 ![Status](https://img.shields.io/badge/status-somewhat_complete-green)
 
-* *接下来可能会加`热词系列`和`TV系列`表情包。*
-
 `📂 bz`
 ```
 📂 def (默认)
@@ -49,13 +50,15 @@ https://cdn.jsdelivr.net/gh/YiJio/emoji-chinese@[VER]/[DIR]
 ```
 
 ### 抖音 / Douyin
-![Status](https://img.shields.io/badge/status-not_started-green)
+![Status](https://img.shields.io/badge/status-somewhat_complete-green)
 
 `📂 dy`
 ```
 📂 def (默认)
-├── 📄 总？、?x?
+├── 📄 总142、96x96
 ```
+*注意：有一个`62.png`（132x96）不知道是什么表情。
+
 
 ### QQ
 ![Status](https://img.shields.io/badge/status-not_complete-green)
@@ -91,7 +94,7 @@ QQ分成2003年、2007年、和2011年版。新版跟2015年版一起用。新�
 ```
 
 ### 淘宝 / Taobao
-![Status](https://img.shields.io/badge/status-missing_some-green)
+![Status](https://img.shields.io/badge/status-complete-green)
 
 `📂 tb`
 ```
@@ -100,33 +103,6 @@ QQ分成2003年、2007年、和2011年版。新版跟2015年版一起用。新�
 
 📂 86x86
 ├── 📄 总98、静态
-```
-
-### 微信 / WeChat
-![Status](https://img.shields.io/badge/status-not_complete-green)
-
-微信分成2011版和新版。新的表情直接上传到`wx-new`文件夹。
-> WeChat is separated into 2011 version and the new version. Please use the new version's directory for new emojis.
-
-用2011年版表情 -> 请看`_map/wx2011.json`。
-> Use 2011 emojis -> please look at `_map/wx2011.json`.
-
-用微信新版表情 -> 请看`_map/wxNew.json`（新版+一些2011年版的表情）。
-> Use new emojis -> please look at `_map/wxNew.json` (new + some 2011 emojis combined).
-
-`📂 wx`
-```
-📂 wx-2011 (2011年版)
-├── 📄 总105、48x48、静态
-
-📂 wx-new (新版)
-├── 📂 def (默认)
-│   ├── 📄 总110、128x128、静态
-├── 📂 other (其他)
-│   ├── 📂 pc (Windows版)
-│   │   ├── 📄 总24、128x128、静态【自带脸红的表情，Windows客户端板专用的】
-│   ├── 📂 woap (微信公众平台)
-│   │   ├── 📄 总38、64x64、静态【出现在微信公众平台】
 ```
 
 ### 微博 / Weibo
@@ -162,6 +138,63 @@ QQ分成2003年、2007年、和2011年版。新版跟2015年版一起用。新�
 ├── 📂 96x96
 │   ├── 📄 总4、静态
 ```
+
+### 微信 / WeChat
+![Status](https://img.shields.io/badge/status-not_complete-green)
+
+微信分成2011版和新版。新的表情直接上传到`wx-new`文件夹。
+> WeChat is separated into 2011 version and the new version. Please use the new version's directory for new emojis.
+
+用2011年版表情 -> 请看`_map/wx2011.json`。
+> Use 2011 emojis -> please look at `_map/wx2011.json`.
+
+用微信新版表情 -> 请看`_map/wxNew.json`（新版+一些2011年版的表情）。
+> Use new emojis -> please look at `_map/wxNew.json` (new + some 2011 emojis combined).
+
+`📂 wx`
+```
+📂 wx-2011 (2011年版)
+├── 📄 总105、48x48、静态
+
+📂 wx-new (新版)
+├── 📂 def (默认)
+│   ├── 📄 总110、128x128、静态
+├── 📂 other (其他)
+│   ├── 📂 pc (Windows版)
+│   │   ├── 📄 总24、128x128、静态【自带脸红的表情，Windows客户端板专用的】
+│   ├── 📂 woap (微信公众平台)
+│   │   ├── 📄 总38、64x64、静态【出现在微信公众平台】
+```
+
+### 携程 / Trip.com
+![Status](https://img.shields.io/badge/status-complete-green)
+
+`📂 xc`
+```
+📂 def (默认)
+├── 📄 总122、60x60、静态
+
+📂 yy
+├── 📂 gif
+│   ├── 📄 总20、220x220、动态
+├── 📂 png
+│   ├── 📄 总20、100x100、静态
+```
+
+### 小红书 / RedNote
+![Status](https://img.shields.io/badge/status-complete-green)
+
+`📂 xhs`
+```
+📂 pot (小红薯)
+├── 📂 64x64
+│   ├── 📄 总40、静态
+
+📂 def (默认)
+├── 📂 128x128
+│   ├── 📄 总125、静态
+```
+*注意：还要调整一下尺寸。
 
 ## 注释 / Notes
 缺少的表情如下 / missing emojis below：
@@ -261,6 +294,11 @@ QQ分成2003年、2007年、和2011年版。新版跟2015年版一起用。新�
 * [微博](https://weibo.com)
 
 ## 变更日志 / Changelog
+**[1.5] - 2025/02/20**
+* 加了小红书表情。
+* 加了携程表情。
+* 加了抖音表情。
+
 **[1.4] - 2025/02/15**
 * 加了B站的`tv`系列表情。
 * 加了淘宝移动版两个缺失的表情。
@@ -280,7 +318,7 @@ QQ分成2003年、2007年、和2011年版。新版跟2015年版一起用。新�
 
 **[1.1] - 2025/02/03**
 * 准备了一些emoji maps。
-* 添加了 LICENSE。
+* 添加了LICENSE。
 * 更新了README。
 * 重构了repo。
 * 上传了‌新的表情。
